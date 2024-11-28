@@ -1,0 +1,171 @@
+
+  /* Estilo do corpo */
+  body {
+    margin: 0 auto;
+    background-image: linear-gradient(to right, rgb(230, 83, 83), rgb(204, 35, 35));
+  }
+
+  /* Título principal */
+  h1 {
+    font-size: 52px;
+    text-align: center;
+    color: bisque;
+    margin-top: 20px;
+  }
+
+  /* Título da seção */
+  #edit-section h2 {
+    font-size: 36px;
+    text-align: center;
+    color: bisque;
+    margin-bottom: 20px;
+  }
+
+  /* Seção de edição */
+  #edit-section {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Fundo similar ao da tabela */
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Formulário */
+  #edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaçamento entre os campos */
+  }
+
+  /* Labels e campos de entrada */
+  #edit-form label {
+    font-size: 18px;
+    color: #333;
+  }
+
+  #edit-form input,
+  #edit-form select {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+
+  /* Botões */
+  #edit-form button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #edit-form button[type="submit"] {
+    background-color: rgb(247, 120, 120);
+    color: white;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+
+  #edit-form button[type="submit"]:hover {
+    background-color: rgb(148, 12, 12);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  #edit-form button[type="button"] {
+    background-color: #ddd;
+    color: #333;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+
+  #edit-form button[type="button"]:hover {
+    background-color: #bbb;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Layout responsivo */
+  @media (max-width: 768px) {
+    #edit-section {
+      width: 90%;
+    }
+
+    #edit-form {
+      gap: 10px;
+    }
+
+    #edit-form input,
+    #edit-form select {
+      font-size: 14px;
+      padding: 8px;
+    }
+
+    #edit-form button {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+  }
+
+
+  /* Centralizar seção */
+  #transactions-section {
+    text-align: center;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Estilo da tabela */
+  #transactions-table {
+    margin: 0 auto; /* Centraliza a tabela */
+    border-collapse: collapse; /* Remove espaços entre bordas */
+    width: 80%; /* Define a largura */
+    max-width: 1000px; /* Define um limite máximo */
+    font-size: 16px; /* Tamanho da fonte */
+    background-color: #fefefe; /* Fundo claro */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  }
+
+  /* Cabeçalho da tabela */
+  #transactions-table thead {
+    background-color:  #af4c6a;; /* Cor de fundo */
+    color: white; /* Texto branco */
+  }
+
+  #transactions-table th {
+    padding: 12px 15px; /* Espaçamento interno */
+    text-align: left; /* Alinhamento à esquerda */
+    font-weight: bold; /* Texto em negrito */
+    border-bottom: 2px solid #ddd; /* Borda inferior */
+  }
+
+  /* Corpo da tabela */
+  #transactions-table td {
+    padding: 10px 12px; /* Espaçamento interno */
+    border-bottom: 1px solid #ddd; /* Borda inferior */
+    text-align: left; /* Alinhamento à esquerda */
+  }
+
+  /* Linhas alternadas */
+  #transactions-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Fundo para linhas pares */
+  }
+
+  /* Realce ao passar o mouse */
+  #transactions-table tbody tr:hover {
+    background-color: #f1f1f1; /* Fundo claro */
+  }
+
+  /* Ações na última coluna */
+  #transactions-table td:last-child {
+    text-align: center; /* Centraliza o conteúdo */
+  }
+
+  /* Título da seção */
+  #transactions-section h2 {
+    color: #333; /* Texto escuro */
+    margin-bottom: 20px; /* Espaçamento inferior */
+  }
+
+

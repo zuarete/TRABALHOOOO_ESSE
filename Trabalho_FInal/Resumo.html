@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resumo Financeiro</title>
+  <link rel="stylesheet" href="css/resumo.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <table width="99.99%" border="0" cellspacing="0" cellpadding="0" >
+      <td>
+          <tr bgcolor=brown >
+                  <td><h2><a href="index.html"><font color=bisque><center><h2>Home</h2></center></font></a></h2></td>
+                  <td><h2><a href="cadastro.html"><font color=bisque seize="5"><center><h2>Cadastro</h2></center></font></a></h2></td>
+                  <td><h2><a href="listagem.html"><font color=bisque><center><h2>Listagem</h2></center></font></a></h2></td>
+                  <td><h2><a href="edicao.html"><font color=bisque><center><h2>Edição de Dados</h2></center></font></a></h2></td>
+          </tr>
+      </td>
+  </table>
+    <h1>Resumo Financeiro</h1>
+  </header>
+
+  <main>
+    <section id="summary-section">
+      <p><strong>Total de Receitas:</strong> <span id="total-receitas">R$ 0,00</span></p>
+      <p><strong>Total de Despesas:</strong> <span id="total-despesas">R$ 0,00</span></p>
+      <p><strong>Saldo Final:</strong> <span id="saldo-final">R$ 0,00</span></p>
+    </section>
+  <h2>Gráficos Financeiros</h2>
+    <section id="charts-section">
+      
+      <div id="g1">
+        <canvas id="pieChart"></canvas>
+      </div>
+      <div id="g1">
+        <canvas id="barChart"></canvas>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/resumo.js"></script>
+</body>
+</html>

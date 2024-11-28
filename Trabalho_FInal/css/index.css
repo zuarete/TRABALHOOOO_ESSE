@@ -1,0 +1,26 @@
+body{
+    margin: 0, auto;
+    background-image: linear-gradient(to right, rgb(230, 83, 83), rgb(204, 35, 35));
+}
+
+h1{
+    font-size: 52px;
+    text-align: center;
+    color: bisque;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 45px;
+}
+div{
+    margin-left: 20%;
+    margin-right: 25%;
+    margin-bottom: 300px;
+    width: 50%;
+    height: 450px;
+}
+

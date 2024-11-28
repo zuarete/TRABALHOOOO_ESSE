@@ -1,0 +1,78 @@
+body{
+    margin: 0, auto;
+    background-image: linear-gradient(to right, rgb(230, 83, 83), rgb(204, 35, 35));
+}
+
+h1{
+    font-size: 52px;
+    text-align: center;
+    color: bisque;
+}
+
+a{
+    text-decoration: none;
+}
+
+#form-section{
+    text-align: center;
+    font-size: 35px;
+}
+
+label,input, select{
+    height: 35px;
+}
+
+button{
+    margin-top: 30px;
+    height: 82px;
+    width: 180px;
+    background-color: rgb(247, 120, 120);
+    font-size: 32px;
+}
+
+button:hover{
+    
+    background-color: rgb(148, 12, 12);
+    color: bisque;
+    box-shadow: 5px 2px 2px rgb(0, 0, 0);
+}
+
+#transactions-section {
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  /* Estilo da tabela */
+  #transactions-table {
+    margin: 0 auto; /* Centraliza a tabela */
+    border-collapse: collapse; /* Remove os espaços entre as bordas */
+    width: 80%; /* Define a largura da tabela */
+    max-width: 1000px; /* Define um limite máximo */
+    background-color: #f9f9f9; /* Cor de fundo da tabela */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: left; /* Alinhamento dos textos */
+  }
+
+  /* Estilo das bordas da tabela */
+  #transactions-table th, 
+  #transactions-table td {
+    border: 1px solid #ddd; /* Borda fina */
+    padding: 8px; /* Espaçamento interno */
+  }
+
+  /* Fundo diferenciado para o cabeçalho */
+  #transactions-table thead {
+    background-color: #af4c6a; /* Cor do cabeçalho */
+    color: white; /* Texto branco */
+  }
+
+  /* Estilo para linhas alternadas no corpo da tabela */
+  #transactions-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cor para linhas pares */
+  }
+
+  /* Hover nos itens do corpo da tabela */
+  #transactions-table tbody tr:hover {
+    background-color: #ddd; /* Realça ao passar o mouse */
+  }
